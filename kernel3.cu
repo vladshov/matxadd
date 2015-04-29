@@ -45,7 +45,7 @@ int main (int argc, char *argv[])
 	for (i = 0; i < m1; i++) {
 		(C)[i] = new double [n2];
 		for (j = 0; j < n2; j++) {
-			C[i][j] = A[i][k] + B[k][j];
+			C[i][j] = A[i][j] + B[i][j];
 		}
 	}
 
